@@ -1,0 +1,98 @@
+/* Body styles */
+body {
+  font-family: 'Times New Roman', Times, serif, 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://i.pinimg.com/736x/53/0f/0c/530f0c1f5e21cb73d17ac6ca05cf25a3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header styles */
+header {
+  background-color: #000000;
+  color: #9b9b9b;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #646464;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main styles */
+main {
+  margin: 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #6d6d6d;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #070707;
+  color: #fff;
+}
+
+td:first-child {
+  font-weight: bold;
+}
+
+/* Footer styles */
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+p,a,td { 
+
+  font-size: x-large;
+}
